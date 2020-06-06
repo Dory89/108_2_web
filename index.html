@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="misapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover"/>
+    <script type="text/javascript" src="js/angularJS.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <title>Hello!!!</title>
+  </head>
+  <body onload="onLoad()">
+    <div class="form-container" ng-class="done">
+      <div class="login-form">
+        <div class="image">
+          <img src="images/img_girl.jpg" width="80%" />
+        </div>
+        <h4>Login</h4>
+        <div>
+          <input type="email" placeholder="E-mail" id="user" value="" />
+        </div>
+        <div>
+          <input type="password" placeholder="Password" id="passwd" value="" />
+        </div>
+        <button class="data-loading-btn" onclick="login();">
+          <span data-loaded-msg="Thank you!">Login</span>
+        </button>
+        <span id="status"></span>
+      </div>
+      <div class="credits" style="font-size: 1.2em;">
+        還沒有帳號? 請點此
+        <a href="register.html" class="credits">註冊</a>
+      </div>
+    </div>
+  </body>
+</html>

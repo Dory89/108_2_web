@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>WEB</title>
+<!-- Sets initial viewport load and disables zooming  -->
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+<!-- <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/date.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+
+<body onload="ShowTime()">
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        <h1 class="title" style="text-align: center;">MY WEB</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+        <center><img src="img/th.png" onclick="javascript:location.href='bird.html'"></center>
+        <p class="content-padded"></p>
+        <center>
+            <div class="btn-group">
+                <button type="button" class="btn btn-warning"
+                    onclick="javascript:location.href='myweb.html'">創作者介紹</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="javascript:location.href='multi-function-calculator.html'">計算機</button>
+                <button type="button" class="btn btn-danger "
+                    onclick="javascript:location.href='notePage.html'">記事本</button>
+                <button type="button" class="btn btn-info "
+                    onclick="javascript:location.href='711.html'">亞大著名景點</button>
+            </div>
+        </center>
+    </div>
+    <div class="footer" style="text-align: center; font-size: large;">
+        <div id="showbox"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+body {
+    background: #B8E6FF;
+}
+
+.div-all {
+    width: 85%;
+    height: 120px;
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+    display: inline-block;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 10px;
+}
+
+.div-img {
+    width: 30%;
+    height: 100%;
+    background-color: gainsboro;
+    float: left;
+}
+
+.div-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.div-cont {
+    width: 65%;
+    height: 100%;
+    float: right;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.div-cont h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

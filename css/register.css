@@ -1,0 +1,61 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} /*網頁設定*/
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+} /*body設定*/
+
+.register-container {
+  padding: 8% 8%;
+  background-color: rgb(253, 241, 221);
+  width: 88%;
+  height: 90%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 6%;
+  border-radius: 20px;
+  -webkit-transition: all ls linear;
+  -moz-transition: all ls linear;
+  transition: all ls linear;
+  position: relative;
+} /*表單容器設定*/
+
+.done .register-form {
+  display: none;
+} /*註冊表單設定*/
+
+.register-container h3 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(124, 124, 124);
+} /*文字設定*/
+
+.register-container .register-form > div > input {
+  border: 2px solid #dedede;
+  padding: 15px;
+  font-size: 18px;
+  min-width: 70%;
+  color: rgb(94, 94, 94);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin-bottom: 3px;
+  outline: none;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  transition: 0.2s linear;
+} /*input設定*/
+
+.data-loading-btn {
+  font-size: 1.25em;
+  width: 150px;
+  border-radius: 25px;
+} /*送出按鈕*/
+
+.register-container .register-form > div > input:focus {
+  border-color: rgb(247, 191, 158);
+} /*input點選時的邊框*/
